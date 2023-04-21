@@ -5,4 +5,4 @@ RUN apt install wget unzip -y
 RUN cd /NOP
 RUN wget "https://github.com/nopSolutions/nopCommerce/releases/download/release-4.50.3/nopCommerce_4.50.3_NoSource_linux_x64.zip"
 RUN unzip /NOP/nopCommerce_4.50.3_NoSource_linux_x64.zip
-RUN rm /Nop/nopCommerce_4.50.3_NoSource_linux_x64.zip
+RUN rm /NOP/nopCommerce_4.50.3_NoSource_linux_x64.zip
